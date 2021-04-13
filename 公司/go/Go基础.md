@@ -1,5 +1,17 @@
 # Go语言圣经
 
+#### 安装
+
+设置镜像仓库
+
+```text
+1. 右键 我的电脑 -> 属性 -> 高级系统设置 -> 环境变量
+2. 在 “[你的用户名]的用户变量” 中点击 ”新建“ 按钮
+3. 在 “变量名” 输入框并新增 “GOPROXY”
+4. 在对应的 “变量值” 输入框中新增 “https://goproxy.io,direct”
+5. 最后点击 “确定” 按钮保存设置
+```
+
 #### 入门
 
 1. Go语言不需要在语句或者声明的末尾添加分号，除非一行上有多条语句
@@ -59,6 +71,8 @@
 
 
 
+## 数据类型
+
 #### string
 
 ```Go
@@ -75,7 +89,75 @@ func Split(s, sep string) []string
 
 
 
-#### IO
+#### slice 
+
+slice 不能使用==进行比较，不过可以使用bytes.Equal函数来判断字节形slice
+
+对于其他元素的slice，需要我们自行实现equal函数
+
+```Go
+runes = append(runes, r)
+```
+
+由于不能确定append调用是否导致了内存的重新分配，因此也不能确定新的slice和原始的slice是否使用相同的底层数组空间。因此，通常将append返回的结果直接赋值给输入的slice变量
+
+```Go
+x = append(x, x...) // append the slice x
+```
+
+​	append 添加切片的方式
+
+```Go
+for _, name := range names {
+   
+}
+```
+
+range names返回两个值	slice的索引值以及当前索引的元素
+
+#### Map
+
+Map的迭代顺序是不确定的，如果要按顺序遍历key/value对，我们必须显式地对key进行排序
+
+方法：1.将key取出放入slice	2.对slice进行排序	3.按slice顺序取Map
+
+Map必须使用前必须进行初始化
+
+
+
+#### Struct
+
+##### 匿名成员
+
+Go语言有一个特性让我们只声明一个成员对应的数据类型而不指名成员的名字；这类成员就叫匿名成员
+
+得益于匿名嵌入的特性，我们可以直接访问叶子属性而不需要给出完整的路径。
+
+实际上，外层结构体不仅仅获得了匿名成员类型的所有成员，也获得了该类型导出的全部方法
+
+
+
+## 函数
+
+#### 递归
+
+```Go
+func outline(stack []string, n *html.Node) {
+    if n.Type == html.ElementNode {
+        stack = append(stack, n.Data) // push tag
+        fmt.Println(stack)
+    }
+    for c := n.FirstChild; c != nil; c = c.NextSibling {
+        outline(stack, c)
+    }
+}
+```
+
+
+
+
+
+## IO
 
 
 
@@ -89,12 +171,3 @@ bufio.NewReader(file).ReadLine()
 
 
 
-设置镜像仓库
-
-```text
-1. 右键 我的电脑 -> 属性 -> 高级系统设置 -> 环境变量
-2. 在 “[你的用户名]的用户变量” 中点击 ”新建“ 按钮
-3. 在 “变量名” 输入框并新增 “GOPROXY”
-4. 在对应的 “变量值” 输入框中新增 “https://goproxy.io,direct”
-5. 最后点击 “确定” 按钮保存设置
-```
