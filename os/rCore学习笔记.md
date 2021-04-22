@@ -114,16 +114,52 @@ JOS 的引导由`boot/boot.S`的汇编程序和`boot/main.c`的C程序两个程�
 ##### GDB命令
 
 - ctrl-c 中止当前程序运行，进入gdb
-
 - c 继续运行到断点位置
-
 - si 执行一条指令
-
 - b function/b file:line 在function处设置断点
-
 - b *addr 在某地址处设置断点
-
 - x/ni 显示接下来n条指令  x/nx add显示接下来n个16进制 +add 用来打印add地址中存储的数据
 
-  
+----------
+
+#### ELF文件结构
+
+在Blackfin的Linux世界中，有两种基本的文件格式：
+
+- FLAT：二进制的Flat文件通常被称为BFLT，它是基于原始的a.out格式的一种相对简单的轻量级可执行格式。BFLT文件是嵌入式Linux的默认文件格式。
+- FDPIC ELF(The Executable and Linking Format)：可执行和可链接格式最初是由Unix System实验室开发出来的，现在已经成为文件格式的标准。相对于BFLT格式而言，ELF标准更强大并且更灵活。但是，它更重量级一些，需要更多的磁盘空间以及有一定的运行时开销。
+
+这两种格式都支持静态和动态链接（共享库），但是，ELF更容易使用及创建动态链接库。只有ELF支持动态加载（dlopen(), dlsym(), dlclose()），以及创建和维护共享库的标准方法。
+
+##### EFI结构
+
+ELF文件格式提供了两种视图，分别是链接视图和执行视图
+
+链接视图是以节（section）为单位，执行视图是以段（segment）为单位
+
+![EFI结构](C:\Users\bicdroid\Desktop\use\notebook\os\pic\EFI结构.png)
+
+
+
+``` c
+// ELF 文件头	描述程序头表项以及其他内容
+struct Elf {
+    uint32_t e_magic; // 标识是否是ELF文件
+    uint32_t e_entry; // 程序入口点
+    uint32_t e_phoff; // 程序头表偏移值
+    uint16_t e_phnum; // 程序头部个数
+};
+//程序头表项		描述section内容?
+struct Proghdr { 
+    uint32_t p_offset; // 段位置相对于文件开始处的偏移量
+    uint32_t p_pa; // 段的物理地址
+    uint32_t p_memsz; // 段在内存中的长度 
+}
+```
+
+链接地址与物理地址 ？？？ Execrise 5  为什么在ljump出错？
+
+[ELF详细资料](https://blog.csdn.net/mergerly/article/details/94585901)
+
+---------
 

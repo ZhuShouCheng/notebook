@@ -91,6 +91,8 @@ func Split(s, sep string) []string
 
 #### slice 
 
+声明方式：var identifier []type
+
 slice 不能使用==进行比较，不过可以使用bytes.Equal函数来判断字节形slice
 
 对于其他元素的slice，需要我们自行实现equal函数
