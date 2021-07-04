@@ -91,6 +91,8 @@ Cipher1 - k*Cipher2 = M + rQ - krG = M + rkG - krG = M
 2. 规定了椭圆曲线公钥的验证方法
 3. 附录中给出了椭圆曲线示例
 
+[国家商业密码标准](http://www.gmbz.org.cn/main/bzlb.html)
+
 ##### Q:
 
 1. 验证[n]P-O是干啥的（公钥验证）
