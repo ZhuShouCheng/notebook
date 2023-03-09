@@ -1,1 +1,154 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T12:01:28.565Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.4" etag="ucEcCgba10E_O2dAzsh5" type="github"><diagram name="第 1 页" id="I58B-3uHIoNSFVEVCWqQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-09T12:37:52.900Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ggC7Jslc6La-kHzez5Ao" version="21.0.4" type="github">
+  <diagram name="第 1 页" id="I58B-3uHIoNSFVEVCWqQ">
+    <mxGraphModel dx="954" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NhEd-gTp36KQJURNbavt-9" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="410" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-46" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="307.5" width="180" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-45" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="205" y="307.5" width="180" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.64;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;fillColor=#f0a30a;strokeColor=#BD7000;" edge="1" parent="1" source="NhEd-gTp36KQJURNbavt-1" target="NhEd-gTp36KQJURNbavt-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="130" width="420" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-2" value="发送方客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-5" value="数据流控制模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-10" value="零信任中央处理服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-13" value="信任评估模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="510" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-14" value="访问控制模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="444" y="510" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-15" value="用户安全信息获取" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="230" y="320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-16" value="推荐信任值计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-17" value="多信任路径合成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="230" y="420" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-19" value="PBAC策略输入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="425" y="320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-20" value="DIFC标签解析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="425" y="365" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-26" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="427" y="410" width="126" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-21" value="群组校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-22" value="标签校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-23" value="汇聚计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="520" y="420" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-29" value="信任阈值判定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="230" y="470" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="120" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-31" value="接收方客户端" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-34" value="传输进程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="205" y="170" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-35" value="端口监听" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="344" y="180" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-36" value="安全信息上报" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="429" y="180" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-37" value="报文重定向" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="524" y="180" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="655" y="310" width="95" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-48" value="数据流控制模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="310" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-51" value="接收进程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="655" y="500" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-54" value="端口监听" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="350" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-55" value="报文重定向" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="405" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-56" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="240" as="sourcePoint" />
+            <mxPoint x="280" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-58" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="394.5" y="240" as="sourcePoint" />
+            <mxPoint x="394.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-59" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="240" as="sourcePoint" />
+            <mxPoint x="520" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-60" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="320" as="sourcePoint" />
+            <mxPoint x="640" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-61" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="419.5" as="sourcePoint" />
+            <mxPoint x="640" y="419.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-62" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="514.5" as="sourcePoint" />
+            <mxPoint x="640" y="514.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-68" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="194.5" as="sourcePoint" />
+            <mxPoint x="330" y="194.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NhEd-gTp36KQJURNbavt-71" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699.5" y="465" as="sourcePoint" />
+            <mxPoint x="699.5" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
