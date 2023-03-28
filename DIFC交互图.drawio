@@ -1,26 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T17:37:02.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="SVaqpHJD4e3Y-TyK4NQq" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T14:35:57.004Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ZdCrS9E7-w06JMlVplYZ" version="21.1.1" type="github">
   <diagram name="第 1 页" id="6CQezu1sQ1fxlcyQVYf-">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="81i3mNlEEEOA8qBIrb5S-2" value="传输进程" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="640" width="120" height="80" as="geometry" />
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-23" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="530" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="81i3mNlEEEOA8qBIrb5S-3" value="主体A" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="80" y="640" width="80" height="80" as="geometry" />
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="398.75" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="81i3mNlEEEOA8qBIrb5S-6" value="信息流控制网关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="640" width="120" height="80" as="geometry" />
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="397.5" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="81i3mNlEEEOA8qBIrb5S-7" value="信息流控制网关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="800" width="120" height="80" as="geometry" />
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="fYzHmMu8Vs5okt7zY4O9-2" target="fYzHmMu8Vs5okt7zY4O9-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="81i3mNlEEEOA8qBIrb5S-8" value="传输进程" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="800" width="120" height="80" as="geometry" />
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.145;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="fYzHmMu8Vs5okt7zY4O9-2" target="fYzHmMu8Vs5okt7zY4O9-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="81i3mNlEEEOA8qBIrb5S-9" value="主体B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="80" y="800" width="80" height="80" as="geometry" />
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-2" value="App1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244.38" y="407.5" width="81.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-3" value="DIFC执行环境" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="460" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1" source="fYzHmMu8Vs5okt7zY4O9-5" target="fYzHmMu8Vs5okt7zY4O9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.4;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="fYzHmMu8Vs5okt7zY4O9-5" target="fYzHmMu8Vs5okt7zY4O9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-5" value="App2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="406.25" width="70" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-6" value="DIFC执行环境" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="461.25" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.792;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="fYzHmMu8Vs5okt7zY4O9-7" target="fYzHmMu8Vs5okt7zY4O9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-7" value="App3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="406.25" width="70" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-8" value="零信任网关" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="350" y="210" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="530" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzHmMu8Vs5okt7zY4O9-11" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="530" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
