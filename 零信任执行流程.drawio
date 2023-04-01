@@ -1,9 +1,161 @@
-<mxfile host="app.diagrams.net" modified="2023-04-01T12:41:57.218Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.2" etag="GmtQhdeEtg0SttUs6aHT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-01T16:31:15.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Ui-0suY_tSK3EGX8G-cB" version="21.1.2" type="github">
   <diagram name="第 1 页" id="O18CY8XnaBSc46CLeHWP">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UMHnbR3vApaapKaN-r0W-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="375" width="310" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="50" width="310" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="269" y="80" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMHnbR3vApaapKaN-r0W-3" target="UMHnbR3vApaapKaN-r0W-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-3" value="PBAC策略信息库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="293" y="90" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMHnbR3vApaapKaN-r0W-5" target="UMHnbR3vApaapKaN-r0W-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-5" value="PBAC策略管理器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="293" y="150" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMHnbR3vApaapKaN-r0W-6" target="UMHnbR3vApaapKaN-r0W-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-6" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="180" y="80" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-8" value="策略决策点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="309" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-10" value="DIFC数据流控制服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="245" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-11" value="终端设备" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-12" value="用户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="170" y="390" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMHnbR3vApaapKaN-r0W-15" target="UMHnbR3vApaapKaN-r0W-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-15" value="传输进程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-20" value="DIFC数据流控制服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="310" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="309" y="510" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMHnbR3vApaapKaN-r0W-23" target="UMHnbR3vApaapKaN-r0W-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-23" value="信任评估引擎" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="326.5" y="525" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-25" value="策略决策点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="339" y="590" width="71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-27" value="终端设备" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="266.5" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-28" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="180" y="510" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-29" value="身份认证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="185" y="525" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-30" value="策略执行点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="194.5" y="585" width="71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="375" width="310" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="597.5" y="400" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMHnbR3vApaapKaN-r0W-33" target="UMHnbR3vApaapKaN-r0W-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-33" value="DIFC数据流控制服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="625" y="415" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="595" y="500" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-35" value="终端设备" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="657.5" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-36" value="DIFC传输校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="639" y="510" width="92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-37" value="DIFC标签计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="639" y="565" width="92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-39" value="策略执行点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="620" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="50" width="310" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-45" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="550" y="80" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-46" value="传输进程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="570" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-47" value="DIFC数据流控制服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="690" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-48" value="传输终端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="648" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-49" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="552.5" y="230" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-50" value="传输进程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="570" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-51" value="DIFC数据流控制服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="690" y="240" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-52" value="接收终端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="646.5" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-54" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="155" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMHnbR3vApaapKaN-r0W-53" target="UMHnbR3vApaapKaN-r0W-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-53" value="数据流转发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="690" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMHnbR3vApaapKaN-r0W-47" target="UMHnbR3vApaapKaN-r0W-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-57" value="策略执行点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="140" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UMHnbR3vApaapKaN-r0W-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UMHnbR3vApaapKaN-r0W-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
