@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T08:20:55.951Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.9" etag="LaJAbt7yM-iJKas78e9R" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T16:23:05.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="CHIgFDziJ8WHIgmmUxcy" version="21.1.9" type="github">
   <diagram name="第 1 页" id="HP0b6ugJYNRQwOyptgga">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RnWPUexHesGPtnoJKUEh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RnWPUexHesGPtnoJKUEh-1" target="RnWPUexHesGPtnoJKUEh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnWPUexHesGPtnoJKUEh-1" value="" style="image;html=1;image=img/lib/clip_art/computers/Network_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="170" y="205" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RnWPUexHesGPtnoJKUEh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RnWPUexHesGPtnoJKUEh-4" target="RnWPUexHesGPtnoJKUEh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RnWPUexHesGPtnoJKUEh-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;策略执行点/策略决策点(PDP/PEP)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="410" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RnWPUexHesGPtnoJKUEh-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.corporate_data_center;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="215" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RnWPUexHesGPtnoJKUEh-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;外部网络&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnWPUexHesGPtnoJKUEh-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;企业资源&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="675" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnWPUexHesGPtnoJKUEh-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;不可信区域&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RnWPUexHesGPtnoJKUEh-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;可信区域&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
