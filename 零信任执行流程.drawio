@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T03:21:26.207Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="CRntRJsfzymFIMT4yyRx" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-25T11:49:07.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="UsXKst20PTequuOG60x4" version="21.2.1" type="github">
   <diagram name="第 1 页" id="O18CY8XnaBSc46CLeHWP">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,7 +68,7 @@
           <mxGeometry x="709.5" y="225" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UMHnbR3vApaapKaN-r0W-25" value="策略决策点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="721.5" y="260" width="71" height="30" as="geometry" />
+          <mxGeometry x="717.5" y="280" width="71" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UMHnbR3vApaapKaN-r0W-27" value="终端设备" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="649.5" y="140" width="60" height="30" as="geometry" />
@@ -80,7 +80,7 @@
           <mxGeometry x="568" y="225" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UMHnbR3vApaapKaN-r0W-30" value="策略执行点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="577" y="260" width="71" height="30" as="geometry" />
+          <mxGeometry x="579.5" y="280" width="71" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UMHnbR3vApaapKaN-r0W-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="150" y="375" width="310" height="280" as="geometry" />
@@ -98,7 +98,7 @@
           <mxGeometry x="215" y="500" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="UMHnbR3vApaapKaN-r0W-35" value="终端设备" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="277.5" y="370" width="60" height="30" as="geometry" />
+          <mxGeometry x="275" y="375" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UMHnbR3vApaapKaN-r0W-36" value="DIFC传输校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="259" y="510" width="92" height="40" as="geometry" />
@@ -172,7 +172,7 @@
           <mxGeometry x="752.5" y="155" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LOuQ3Y_gW_0SMIseQCvZ-5" value="&lt;font color=&quot;#ff0000&quot;&gt;5）信任评估&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="631.5" y="290" width="90" height="30" as="geometry" />
+          <mxGeometry x="635.5" y="290" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LOuQ3Y_gW_0SMIseQCvZ-6" value="&lt;font color=&quot;#ff0000&quot;&gt;6）策略决策&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="315" y="465" width="90" height="30" as="geometry" />
