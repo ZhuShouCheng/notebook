@@ -1,9 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2023-04-27T08:30:53.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.2" etag="oJvdVuI-8KtO7R0q46AZ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-27T09:05:42.081Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Q3rzAg4-D_YxArU4UsEX" version="21.2.2" type="github">
   <diagram name="第 1 页" id="0FySakaFWeccpaDA6tuQ">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Kn3_flSJN2aSUojSqD0I-2">
+          <mxGeometry x="5" y="60" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Kn3_flSJN2aSUojSqD0I-2">
+          <mxGeometry x="5" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-4" value="用户D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-5" value="信任评估引擎" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Kn3_flSJN2aSUojSqD0I-5">
+          <mxGeometry x="45" y="60" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-7" value="安全信息" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="Kn3_flSJN2aSUojSqD0I-3" target="Kn3_flSJN2aSUojSqD0I-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="210" as="sourcePoint" />
+            <mxPoint x="200" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-8" value="评估通过，允许发起请求" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="Kn3_flSJN2aSUojSqD0I-10" target="Kn3_flSJN2aSUojSqD0I-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="250" as="sourcePoint" />
+            <mxPoint x="120" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="290" />
+              <mxPoint x="230" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-9" value="信任值度量" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" source="Kn3_flSJN2aSUojSqD0I-6" target="Kn3_flSJN2aSUojSqD0I-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="320" y="215" />
+              <mxPoint x="320" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="285" y="270" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-11" value="DIFC策略执行点" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="414" y="140" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="Kn3_flSJN2aSUojSqD0I-11">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-15" value="标签数据" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="Kn3_flSJN2aSUojSqD0I-12" target="Kn3_flSJN2aSUojSqD0I-13">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="330" as="sourcePoint" />
+            <mxPoint x="200" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="330" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-18" value="标签校验" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="470" y="330" />
+              <mxPoint x="495" y="330" />
+              <mxPoint x="495" y="385" />
+            </Array>
+            <mxPoint x="470" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kn3_flSJN2aSUojSqD0I-21" value="标签校验失败，传输操作被拒绝" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="Kn3_flSJN2aSUojSqD0I-13" target="Kn3_flSJN2aSUojSqD0I-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="390" as="sourcePoint" />
+            <mxPoint x="120" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
