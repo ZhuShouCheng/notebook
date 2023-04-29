@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-04-29T04:42:50.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="JXdmrvRndCE2HhfYJEGG" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-29T04:43:45.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="s8244mElwOdRCyoyzAlx" version="21.2.3" type="github">
   <diagram name="第 1 页" id="2SYPmtGW7S65cHs98mN5">
-    <mxGraphModel dx="989" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OuNUDmOxd0yig4S1Nt6u-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OuNUDmOxd0yig4S1Nt6u-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="757.5" y="120" width="320" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="OuNUDmOxd0yig4S1Nt6u-83" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="OuNUDmOxd0yig4S1Nt6u-83" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="780.62" y="170" width="273.75" height="135" as="geometry" />
         </mxCell>
         <mxCell id="OuNUDmOxd0yig4S1Nt6u-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;基于分散式信息流控制的零信任网络数据保护模型&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="140" y="120" width="40" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="OuNUDmOxd0yig4S1Nt6u-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OuNUDmOxd0yig4S1Nt6u-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="220" y="120" width="260" height="280" as="geometry" />
         </mxCell>
         <mxCell id="OuNUDmOxd0yig4S1Nt6u-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;多维度信任评估方法&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -79,19 +79,19 @@
             <mxPoint x="280" y="319" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OuNUDmOxd0yig4S1Nt6u-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OuNUDmOxd0yig4S1Nt6u-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="520" y="120" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="OuNUDmOxd0yig4S1Nt6u-36" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;基于策略的零信任访问控制方法&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="555" y="130" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OuNUDmOxd0yig4S1Nt6u-57" value="访问控制元素定义" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="OuNUDmOxd0yig4S1Nt6u-57" value="访问控制元素定义" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="550" y="180" width="25" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="OuNUDmOxd0yig4S1Nt6u-59" value="访问控制组成架构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="OuNUDmOxd0yig4S1Nt6u-59" value="访问控制组成架构" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="607.5" y="180" width="25" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="OuNUDmOxd0yig4S1Nt6u-60" value="访问控制决策规则" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="OuNUDmOxd0yig4S1Nt6u-60" value="访问控制决策规则" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="670" y="180" width="25" height="200" as="geometry" />
         </mxCell>
         <mxCell id="OuNUDmOxd0yig4S1Nt6u-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OuNUDmOxd0yig4S1Nt6u-62" target="OuNUDmOxd0yig4S1Nt6u-64">
