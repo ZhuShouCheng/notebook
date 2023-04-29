@@ -1,9 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-04-29T07:09:44.356Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.3" etag="8sfa8zEvAX0UGwrz4tn1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-29T07:23:44.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="yVm6MhMRcNQHxxZzw8ku" version="21.2.3" type="github">
   <diagram name="第 1 页" id="uhA69nLaVSjUWbX2z1z0">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qQSC0gOD3k9-MZp-S63T-2" target="qQSC0gOD3k9-MZp-S63T-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-2" value="用户A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="155" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qQSC0gOD3k9-MZp-S63T-4" target="qQSC0gOD3k9-MZp-S63T-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-4" value="策略执行点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="155" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qQSC0gOD3k9-MZp-S63T-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-6" value="用户B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="275" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-7" value="传输数据x至用户B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-8" value="标签校验通过，转发数据x" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="269" y="215" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qQSC0gOD3k9-MZp-S63T-17" target="qQSC0gOD3k9-MZp-S63T-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-17" value="策略执行点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="275" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-21" value="数据x加入数据y处理后获得数据z" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="315" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-22" value="传输数据z至用户E" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="269" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-23" value="用户E" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="400" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qQSC0gOD3k9-MZp-S63T-25" value="标签校验通过，转发数据z" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="345" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
