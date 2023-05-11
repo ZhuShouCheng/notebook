@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T17:02:33.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="riLiReYVlg02uFcuDq9X" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T06:00:55.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="hIuaIVLB3DQXD6RJ5v9r" version="21.2.9" type="github">
   <diagram name="第 1 页" id="CGOS58lrRnTovM-2bEkH">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -37,13 +37,13 @@
         <mxCell id="qPEx4N3j_kpi1bxHko7N-11" value="研究结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="480" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zzTOW-ij9Ll_L5tlWY9d-4" value="$$\{Patient:Researcher\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zzTOW-ij9Ll_L5tlWY9d-4" value="$$\{Patient:G_{Researcher}\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="405" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zzTOW-ij9Ll_L5tlWY9d-5" value="$$\{Analyzer:Researcher\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zzTOW-ij9Ll_L5tlWY9d-5" value="$$\{Analyzer:G_{Researcher}\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="605" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zzTOW-ij9Ll_L5tlWY9d-6" value="$$\{Patient:Researcher;Analyer:Researcher\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zzTOW-ij9Ll_L5tlWY9d-6" value="$$\{Patient:G_{Researcher};Analyer:G_{Researcher}\}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="355" y="450" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
