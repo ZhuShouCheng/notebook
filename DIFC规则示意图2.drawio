@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T05:49:09.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ZUUo2fxI9v9w_buONXmE" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-14T03:54:06.675Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="AmYcOl6jK9SSqxf2AzaS" version="21.2.9" type="github">
   <diagram name="第 1 页" id="-tU2giaiC4PwmeR-Xja7">
     <mxGraphModel dx="2261" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -106,7 +106,7 @@
         <mxCell id="KiT3ZsEfIs27UZU9Whzl-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1.具备相同的Owner&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-30" y="150" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KiT3ZsEfIs27UZU9Whzl-2" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;2.每个策略的Object限制范围更小&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="KiT3ZsEfIs27UZU9Whzl-2" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;2.每个策略的Object限制范围更严格&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="247.5" y="150" width="235" height="30" as="geometry" />
         </mxCell>
       </root>
